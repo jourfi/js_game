@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS</title>
+</head>
+<body>
+
+<script>
+
+function diagofsquare(x){
+result = x*(Math.sqrt(2));
+console.log("Diagonal of the square : ");
+console.log(result);
+};
+
+
+function areaoftriangle(x,y,z){
+s = (x+y+z)/2;
+area_rule = s*(s-x)*(s-y)*(s-z);
+area = Math.sqrt(area_rule);
+console.log("Area of Triangle : ");
+console.log(area);
+};
+
+function circle(r){
+
+  cir = 2*Math.PI * r;
+  area = Math.PI * r*r;
+  console.log("Circumference");
+  console.log(cir);
+  console.log("Area");
+  console.log(area);
+}
+function compare(x,y){
+if(x>y){
+  console.log(x," is greater than ", y);
+} else if (x<y){
+  console.log(y," is greater than ", x );
+} else {
+  console.log("Numbers are equals");
+}
+
+};
+
+
+
+    </script>
+
+</body>
+
+
+
+</html>
